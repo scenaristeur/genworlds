@@ -14,6 +14,8 @@ import styles from './index.module.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import Translate, { translate } from '@docusaurus/Translate';
+
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -27,7 +29,7 @@ function HomepageHeader() {
               <Link
                 className="button button--primary button--lg"
                 to="/docs/get-started/intro">
-                Getting Started
+                <Translate>Getting Started</Translate>
               </Link>
             </div>
           </div>
@@ -35,7 +37,11 @@ function HomepageHeader() {
             <div className={classnames("card", styles.heroCard)}>
               <div className={classnames("card__header", styles.heroCardHeader)}>
                 <h3>Hello (Gen)World</h3>
-                <p>We are building an ecosystem of Generative AI applications. Join the community to be the first to learn about what others are building.</p>
+                <p>
+                  <Translate>
+                    We are building an ecosystem of Generative AI applications. Join the community to be the first to learn about what others are building.
+                  </Translate>
+                </p>
               </div>
               <div className="card__body">
 
@@ -63,11 +69,11 @@ export default function Home() {
       description="🧬🌍 GenWorlds is an open-source framework for building reliable multi-agent systems.">
       <HomepageHeader />
       <main className={styles.content}>
-      <section className={styles.features}>
-    <div className="container">
-      <a href="https://www.producthunt.com/posts/genworlds?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-genworlds" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=406215&theme=light" alt="GenWorlds - Framework&#0032;for&#0032;Coordinating&#0032;AI&#0032;Agents | Product Hunt"/></a>
-    </div>
-  </section>
+        <section className={styles.features}>
+          <div className="container">
+            <a href="https://www.producthunt.com/posts/genworlds?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-genworlds" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=406215&theme=light" alt="GenWorlds - Framework&#0032;for&#0032;Coordinating&#0032;AI&#0032;Agents | Product Hunt" /></a>
+          </div>
+        </section>
 
         <section className={styles.description}>
           <div className={classnames("row", styles.descriptionRow)}>
@@ -95,7 +101,7 @@ export default function Home() {
           <div className="card">
             <div className="card__header">
               <div class="row margin-vert--md">
-               <div className={classnames("col col--8", styles.communityHeader)}>
+                <div className={classnames("col col--8", styles.communityHeader)}>
                   <h2>Join our Community 🚀</h2>
                   <p>GenWorlds is not just an AI platform;
                     it's a vibrant community of developers, AI enthusiasts, and innovators who are
@@ -131,7 +137,7 @@ export default function Home() {
                       <li>
                         <a href="https://github.com/yeagerai/genworlds">Give us a Star!</a>
                       </li>
-                      
+
                     </ul>
                   </div>
                 </div>

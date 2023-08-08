@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Get Started": {
+    "message": "Get Started",
+    "description": "The label for category Get Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Get Started.link.generated-index.description": {
+    "message": "Some Example Use Cases of the GenWorlds framework you can play with now",
+    "description": "The generated-index page description for category Get Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.The GenWorlds Framework": {
+    "message": "The GenWorlds Framework",
+    "description": "The label for category The GenWorlds Framework in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.The GenWorlds Framework.link.generated-index.description": {
+    "message": "Building blocks of the Genworlds Framework",
+    "description": "The generated-index page description for category The GenWorlds Framework in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Agents": {
+    "message": "Agents",
+    "description": "The label for category Agents in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Agents.link.generated-index.description": {
+    "message": "GenWorlds Agents Explained",
+    "description": "The generated-index page description for category Agents in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Community Toolkit": {
+    "message": "Community Toolkit",
+    "description": "The label for category Community Toolkit in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Community Toolkit.link.generated-index.description": {
+    "message": "Some Example Use Cases of the GenWorlds framework you can play with now",
+    "description": "The generated-index page description for category Community Toolkit in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.The GenWorlds Platform": {
+    "message": "The GenWorlds Platform",
+    "description": "The label for category The GenWorlds Platform in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.The GenWorlds Platform.link.generated-index.description": {
+    "message": "An AI platform enabling creation, fine-tuning, hosting, and marketplace trading of unique AI worlds and agents.",
+    "description": "The generated-index page description for category The GenWorlds Platform in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Use Cases": {
+    "message": "Use Cases",
+    "description": "The label for category Use Cases in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Use Cases.link.generated-index.description": {
+    "message": "Some Example Use Cases of the GenWorlds framework you can play with now",
+    "description": "The generated-index page description for category Use Cases in sidebar tutorialSidebar"
+  }
+}
